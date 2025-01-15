@@ -15,24 +15,24 @@ public class Problem1 {
     nums = new int[] {3, 2, 4};
     target = 6;
     System.out.println(solution.twoSum(nums, target));
-    nums = new int[] {3,3};
+    nums = new int[] {3, 3};
     target = 6;
     System.out.println(solution.twoSum(nums, target));
   }
-}
 
-class Solution {
-  public List<Integer> twoSum(int[] nums, int target) {
-    HashMap<Integer, Integer> map = new HashMap<>();
-    List<Integer> indicesList = new ArrayList<>();
-    for (int i = 0; i < nums.length; i++) {
-      if (map.containsKey(target - nums[i])) {
-        indicesList.add(i);
-        indicesList.add(map.get(target - nums[i]));
-      } else {
-        map.put(nums[i], i);
+  static class Solution {
+    public List<Integer> twoSum(int[] nums, int target) {
+      HashMap<Integer, Integer> map = new HashMap<>();
+      List<Integer> indicesList = new ArrayList<>();
+      for (int i = 0; i < nums.length; i++) {
+        if (map.containsKey(target - nums[i])) {
+          indicesList.add(i);
+          indicesList.add(map.get(target - nums[i]));
+        } else {
+          map.put(nums[i], i);
+        }
       }
+      return indicesList;
     }
-    return indicesList;
   }
 }
