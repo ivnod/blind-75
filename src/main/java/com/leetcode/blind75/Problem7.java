@@ -19,7 +19,7 @@ public class Problem7 {
       if (nums[0] < nums[nums.length - 1]) return nums[0];
       while (true) {
         int left = 0, right = nums.length - 1;
-        int mid = (left + (right - left)) / 2;
+        int mid = (left + (right - left) / 2);
         // check mid+1 is decreasing
         if (nums[mid + 1] < nums[mid]) return nums[mid + 1];
         // check mid is decreasing
