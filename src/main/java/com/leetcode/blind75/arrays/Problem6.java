@@ -1,5 +1,5 @@
 // Maximum Product Subarray
-package com.leetcode.blind75;
+package com.leetcode.blind75.arrays;
 
 public class Problem6 {
   public static void main(String[] args) {

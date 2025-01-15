@@ -1,5 +1,5 @@
 // Maximum Subarray
-package com.leetcode.blind75;
+package com.leetcode.blind75.arrays;
 
 public class Problem5 {
   public static void main(String[] args) {

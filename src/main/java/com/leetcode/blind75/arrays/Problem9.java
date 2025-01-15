@@ -1,5 +1,5 @@
 // 3Sum
-package com.leetcode.blind75;
+package com.leetcode.blind75.arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;

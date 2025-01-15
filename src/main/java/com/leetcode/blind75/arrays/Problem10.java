@@ -1,5 +1,5 @@
-// 3Sum
-package com.leetcode.blind75;
+// Container With Most Water
+package com.leetcode.blind75.arrays;
 
 public class Problem10 {
   public static void main(String[] args) {

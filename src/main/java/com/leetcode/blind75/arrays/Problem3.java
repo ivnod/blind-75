@@ -1,5 +1,5 @@
 // Contains Duplicate
-package com.leetcode.blind75;
+package com.leetcode.blind75.arrays;
 
 import java.util.HashSet;
 

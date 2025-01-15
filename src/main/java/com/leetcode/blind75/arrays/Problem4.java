@@ -1,5 +1,5 @@
 // Product of Array Except Self
-package com.leetcode.blind75;
+package com.leetcode.blind75.arrays;
 
 import java.util.Arrays;
 

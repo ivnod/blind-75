@@ -1,5 +1,5 @@
 // Find Minimum in Rotated Sorted Array
-package com.leetcode.blind75;
+package com.leetcode.blind75.arrays;
 
 public class Problem8 {
   public static void main(String[] args) {

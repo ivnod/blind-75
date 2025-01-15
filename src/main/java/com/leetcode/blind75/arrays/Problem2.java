@@ -1,5 +1,5 @@
 // Best Time to Buy and Sell Stock
-package com.leetcode.blind75;
+package com.leetcode.blind75.arrays;
 
 public class Problem2 {
   public static void main(String[] args) {

@@ -1,8 +1,7 @@
 // 1. Two Sum
-package com.leetcode.blind75;
+package com.leetcode.blind75.arrays;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
